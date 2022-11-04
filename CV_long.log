@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.11) (preloaded format=xelatex 2021.1.13)  1 NOV 2022 20:31
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.11) (preloaded format=xelatex 2021.1.13)  3 NOV 2022 18:26
 entering extended mode
 **./CV_long.tex
 (CV_long.tex
@@ -1019,36 +1019,36 @@ ramlibrarycore.styles.code.tex)
 (C:\Users\adwait\AppData\Local\Programs\MiKTeX\tex/latex/smartdiagram\smartdiag
 ramlibrarycore.commands.code.tex))
 LaTeX Font Info:    Font shape `TU/ClearSans(0)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 247.
+(Font)              scaled to size 10.0pt on input line 248.
  (CV_long.aux)
 \openout1 = `CV_long.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 247.
-LaTeX Font Info:    ... okay on input line 247.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 247.
-LaTeX Font Info:    ... okay on input line 247.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 247.
-LaTeX Font Info:    ... okay on input line 247.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 247.
-LaTeX Font Info:    ... okay on input line 247.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 247.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 248.
+LaTeX Font Info:    ... okay on input line 248.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 248.
+LaTeX Font Info:    ... okay on input line 248.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 248.
+LaTeX Font Info:    ... okay on input line 248.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 248.
+LaTeX Font Info:    ... okay on input line 248.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 248.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 2
-47.
+48.
 
 (C:\Users\adwait\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 247.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 247.
-LaTeX Font Info:    ... okay on input line 247.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 247.
-LaTeX Font Info:    ... okay on input line 247.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 247.
-LaTeX Font Info:    ... okay on input line 247.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 247.
-LaTeX Font Info:    ... okay on input line 247.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 247.
-LaTeX Font Info:    ... okay on input line 247.
+LaTeX Font Info:    ... okay on input line 248.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 248.
+LaTeX Font Info:    ... okay on input line 248.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 248.
+LaTeX Font Info:    ... okay on input line 248.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 248.
+LaTeX Font Info:    ... okay on input line 248.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 248.
+LaTeX Font Info:    ... okay on input line 248.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 248.
+LaTeX Font Info:    ... okay on input line 248.
 
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -1083,7 +1083,7 @@ LaTeX Font Info:    ... okay on input line 247.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 247.
+Package hyperref Info: Link coloring OFF on input line 248.
 (C:\Users\adwait\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
@@ -1096,14 +1096,14 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count320
 )
-LaTeX Info: Redefining \ref on input line 247.
-LaTeX Info: Redefining \pageref on input line 247.
-LaTeX Info: Redefining \nameref on input line 247.
+LaTeX Info: Redefining \ref on input line 248.
+LaTeX Info: Redefining \pageref on input line 248.
+LaTeX Info: Redefining \nameref on input line 248.
  (CV_long.out) (CV_long.out)
 \@outlinefile=\write4
 \openout4 = `CV_long.out'.
 
-LaTeX Info: Redefining \microtypecontext on input line 247.
+LaTeX Info: Redefining \microtypecontext on input line 248.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: No adjustment of tracking.
@@ -1115,78 +1115,78 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             See the microtype manual for details.
 
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 247.
+LaTeX Info: Redefining \selectfont on input line 248.
 
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 (fontspec)             this).
 
 \symlegacymaths=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 247.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 247.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 247.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 247.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 247.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 247.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 247.
-LaTeX Font Info:    Redeclaring math accent \check on input line 247.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 247.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 247.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 247.
-LaTeX Font Info:    Redeclaring math symbol \colon on input line 247.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 247.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 247.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 247.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 247.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 247.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 247.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 247.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 247.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 247.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 247.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 247.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 247.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 247.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 248.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 248.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 248.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 248.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 248.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 248.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 248.
+LaTeX Font Info:    Redeclaring math accent \check on input line 248.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 248.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 248.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 248.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 248.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 248.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 248.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 248.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 248.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 248.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 248.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 248.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 248.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 248.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 248.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 248.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 248.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 248.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 247.
+(Font)              `operators' in the math version `normal' on input line 248.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 247.
+(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 248.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 247.
+(Font)              `operators' in the math version `bold' on input line 248.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 247.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 248.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 247.
+(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 248.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 247.
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 248.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 247.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 248.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/ClearSans(0)/m/n on input line 247.
+(Font)                  OT1/cmss/m/n --> TU/ClearSans(0)/m/n on input line 248.
 
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 247.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 248.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 247.
+(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 248.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 247.
+(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 248.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/ClearSans(0)/b/n on input line 247
+(Font)                  OT1/cmss/bx/n --> TU/ClearSans(0)/b/n on input line 248
 .
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 247.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 248.
 File: pics/profile.jpg Graphic file (type bmp)
 <pics/profile.jpg>
 LaTeX Font Info:    Font shape `TU/ClearSans(0)/m/n' will be
-(Font)              scaled to size 24.88pt on input line 249.
+(Font)              scaled to size 24.88pt on input line 250.
 
-Overfull \hbox (7.24158pt too wide) in paragraph at lines 249--249
+Overfull \hbox (7.24158pt too wide) in paragraph at lines 250--250
 []\TU/ClearSans(0)/m/n/24.88 Pranav Sudersan[] 
  []
 
 LaTeX Font Info:    Font shape `TU/ClearSans(0)/m/n' will be
-(Font)              scaled to size 14.4pt on input line 249.
+(Font)              scaled to size 14.4pt on input line 250.
 
 (C:\Users\adwait\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-LatinMode
 rnRoman.cfg)
@@ -1196,11 +1196,11 @@ rnRoman.cfg)
 (C:\Users\adwait\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msb.cfg)
 (C:\Users\adwait\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-cmr.cfg)
 LaTeX Font Info:    Font shape `TU/ClearSans(0)/m/n' will be
-(Font)              scaled to size 20.74pt on input line 249.
-File: pics/flags/shiny//CN.png Graphic file (type bmp)
-<pics/flags/shiny//CN.png>
+(Font)              scaled to size 20.74pt on input line 250.
+File: pics/flags/shiny//GB.png Graphic file (type bmp)
+<pics/flags/shiny//GB.png>
 LaTeX Font Info:    Font shape `TU/ClearSans(0)/m/n' will be
-(Font)              scaled to size 7.0pt on input line 249.
+(Font)              scaled to size 7.0pt on input line 250.
 Package microtype Info: Character `,' is missing
 (microtype)             in font `\TU/fontawesomefree/solid/n/7'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -1300,18 +1300,18 @@ Package microtype Info: Character `\textless ' is missing
 Package microtype Info: Character `\textgreater ' is missing
 (microtype)             in font `\TU/fontawesomefree/solid/n/7'.
 (microtype)             Ignoring protrusion settings for this character.
-File: pics/flags/shiny//DE.png Graphic file (type bmp)
-<pics/flags/shiny//DE.png>
-File: pics/flags/shiny//GB.png Graphic file (type bmp)
-<pics/flags/shiny//GB.png>
-File: pics/flags/shiny//FR.png Graphic file (type bmp)
-<pics/flags/shiny//FR.png>
+File: pics/flags/shiny//India.png Graphic file (type bmp)
+<pics/flags/shiny//India.png>
+File: pics/flags/shiny//India.png Graphic file (type bmp)
+<pics/flags/shiny//India.png>
+File: pics/flags/shiny//Germany.png Graphic file (type bmp)
+<pics/flags/shiny//Germany.png>
+File: pics/flags/shiny//Spain.png Graphic file (type bmp)
+<pics/flags/shiny//Spain.png>
 LaTeX Font Info:    Font shape `TU/ClearSans(0)/b/n' will be
-(Font)              scaled to size 10.0pt on input line 251.
+(Font)              scaled to size 10.0pt on input line 252.
 LaTeX Font Info:    Font shape `TU/ClearSans(0)/b/n' will be
-(Font)              scaled to size 17.28pt on input line 251.
-LaTeX Font Info:    Font shape `TU/ClearSans(0)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 265.
+(Font)              scaled to size 17.28pt on input line 252.
 
 (C:\Users\adwait\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\se-ascii-p
 rint.def
@@ -1320,29 +1320,31 @@ File: se-ascii-print.def 2019/11/29 v1.12 stringenc: Printable ASCII characters
 ) [1
 
 ]
-Overfull \hbox (7.24158pt too wide) in paragraph at lines 315--315
+Overfull \hbox (7.24158pt too wide) in paragraph at lines 309--309
 []\TU/ClearSans(0)/m/n/24.88 Pranav Sudersan[] 
  []
 
 LaTeX Font Info:    Font shape `TU/ClearSans(0)/b/n' will be
-(Font)              scaled to size 8.0pt on input line 315.
+(Font)              scaled to size 8.0pt on input line 309.
 LaTeX Font Info:    Font shape `TU/ClearSans(0)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 315.
+(Font)              scaled to size 9.0pt on input line 309.
 File: pics/logo.png Graphic file (type bmp)
 <pics/logo.png>
 File: pics/logo.png Graphic file (type bmp)
 <pics/logo.png>
+LaTeX Font Info:    Font shape `TU/ClearSans(0)/m/n' will be
+(Font)              scaled to size 12.0pt on input line 318.
 LaTeX Font Info:    Font shape `TU/ClearSans(0)/b/n' will be
-(Font)              scaled to size 12.0pt on input line 373.
+(Font)              scaled to size 12.0pt on input line 367.
 [2] (CV_long.aux)
 Package rerunfilecheck Info: File `CV_long.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 30307 strings out of 412095
- 587627 string characters out of 2846837
- 1041056 words of memory out of 3000000
- 49388 multiletter control sequences out of 15000+200000
+ 30306 strings out of 412095
+ 587687 string characters out of 2846837
+ 1039121 words of memory out of 3000000
+ 49387 multiletter control sequences out of 15000+200000
  405745 words of font info for 68 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
  94i,13n,98p,436b,940s stack positions out of 5000i,500n,10000p,200000b,50000s
