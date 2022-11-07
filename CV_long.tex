@@ -56,7 +56,6 @@
 % improve word spacing and hyphenation
 \usepackage{microtype}
 \usepackage{ragged2e}
-
 % uncomment in case you don't want any hyphenation
 % \usepackage[none]{hyphenat}
 
@@ -123,6 +122,8 @@
 %\cvlogopic{pics/logo_txt.png}
 
 % NOTE: ordering in sidebar will mimic the following order
+% any other custom entry
+\cvcustomdata{\faFlag}{Indian}
 % date of birth
 \cvbirthday{December 8, 1992}
 % short address/location, use \newline if more than 1 line is required
@@ -134,9 +135,10 @@
 % email address
 \cvmail{pranasudersan@gmail.com}
 % pgp key
-%\cvkey{4096R/FF00FF00}{0xAABBCCDDFF00FF00}
-% any other custom entry
-\cvcustomdata{\faFlag}{Indian}
+%\cvkey{ORCID: 0000-0003-2629-6535}{0000-0003-2629-6535} % put your actual ORCID here in the two brackets
+\cvcustomdata{\faGithub}{\href{https://orcid.org/0000-0003-2629-6535}{ORCID: 0000-0003-2629-6535}}
+\cvcustomdata{\faGithub}{\href{https://github.com/PranavSudersan}{github.com/PranavSudersan}}
+
 
 %-------------------------------------------------------------------------------
 %                              SIDEBAR 1st PAGE
@@ -158,24 +160,35 @@
 				{Github Project Page Link}
 		\end{icontable}
 
-	\sidesection{Languages}
+	\profilesection{Interests}
+		\skill{\faGraduationCap}{Bio-inspiration}
+		\skill{\faGraduationCap}{Materials and interfacial science}
+		\skill{\faGraduationCap}{Human-Robot Interaction}
+		\skill{\faGraduationCap}{Applied Intelligence}
+				\skill{\faGraduationCap}{Embedded Systems Design}
+
+
+	\profilesection{Skills}
+	\chartlabel{Programming:}\\
+		\pointskill{}{Python}{5}
+		\pointskill{}{LABVIEW}{4}
+ 		\pointskill{}{MATLAB}{3}
+        	\chartlabel{Tools:}\\
+    		\pointskill{}{OpenCV, PCL}{4}
+		\pointskill{}{TensorFlow}{3}
+		\pointskill{}{Keras}{3}
+	\chartlabel{CAD Tools:}\\
+		\pointskill{}{CATIA}{4}
+		\pointskill{}{MSC ADAMS}{4}
+	\chartlabel{Robot Simulators:}\\
+ 		\pointskill{}{V-REP, Webots}{5}
+		\pointskill{}{SOFA}{2}
+	\chartlabel{Languages:}
 		\pointskill{\flag{GB.png}}{English}{5}
 		\pointskill{\flag{India.png}}{Hindi}{5}
 		\pointskill{\flag{India.png}}{Malayalam}{5}
 		\pointskill{\flag{Germany.png}}{German}{2}
 		\pointskill{\flag{Spain.png}}{Spanish}{1}
-
-	\sidesection{Hard Skills}
-		\skill{\faBalanceScale}{Sleeping almost all day}
-		\skill{\faSitemap}{Eating a lot of bamboo sprouts}
-		\skill{\faGraduationCap}{Relaxing rest of the day}
-
-	\sidesection{Soft Skills}
-		\pointskill{\faHome}{Looking Cute}{4}[4]
-			\skill[1.8em]{\faCompress}{No need to specify further}
-		\pointskill{\faChild}{Chillin' hard}{3}[4]
-			\skill[1.8em]{\faCompress}{On a tree}
-			\skill[1.8em]{\faCompress}{In the grass}
 }
 
 
@@ -251,39 +264,50 @@
 
 \cvsection{Education}
 \begin{cvtable}[1.5]
-	\cvitem{2019 -- ongoing}{PhD in Chemistry}{Max Planck Graduate Center, Mainz}
-		{Focus: Advanced rice hat studies and nouveau rain-reflecting cover
-		materials.}
-	\cvitem{}{Master Thesis ($\varnothing\, 1,0$)}{Asian Rice Hat Institute}
-		{Impact of solar radiation onto rice hat cover materials with special
-		attention to water resistance.}
+	\cvitem{2019 -- ongoing}{Ph.D. in Chemistry}{Max Planck Graduate Center, Mainz}
+		{
+		\textbf{Title}:Understanding reversible underwater adhesion in terrestrial ladybug beetles\\
+		\textbf{Supervisors}: Prof. Dr.Hans-Jürgen Butt, Prof. Dr. Eduard Arzt\\
+		\textbf{Projects}:\\
+		\textbullet \emph{In-vivo} underwater adhesion measurements on insect legs \\
+		\textbullet Surface tension measurement of insect secretions using AFM \\
+		\textbullet Theoretical modelling of the mechanism of reversible adhesion
+		\chartlabel{Adhesion setup} \chartlabel{AFM} \chartlabel{Surface Evolver} \chartlabel{Image analysis}
+		}
 	\cvitem{2010 -- 2015}{M.Tech and B.Tech in Chemical Engineering}{IIT Bombay, India}
-		{Focus: Bamboo morphology and its usage in different craftmanships.}
-	\cvitem{}{Master Thesis ($\varnothing\, 1,0$)}{Bamboo Institute}
-		{The bambo flute: An underestimated instrument in orchestras?}
+		{
+		\textbf{Title}:Preparation and characterization of sugar-oil microemulsion glasses\\
+		\textbf{Supervisors}: Prof. Jyoti R. Seth \\
+		\textbf{Projects}:\\
+		\textbullet Phase study of solid microemulsions based on sugar-oil mixtures \\
+ 		\textbullet Structural characterization by SEM, SANS, DSC and Rheology \\
+		\chartlabel{Material science}\chartlabel{Experimental design}
+		}
 \end{cvtable}
 
 \medskip
 
 \cvsection{Working Experience}
 \begin{cvtable}[1.5]
-	\cvitem{currently}{Project Assistant}{Inst. of Chemical Tech., India}{Chief executive officer, Head
-		developer and yoga ambassador of 'The Panda Way' - A company from pandas
-		for pandas.}
+	\cvitem{2018}{Project Assistant}{Inst. of Chemical Tech., India}{
+		\textbullet Efficacy of soap formulations using dynamic interfacial tension \\
+		\chartlabel{Interfacial science}\chartlabel{Data collection}}
 	\cvitem{2016 -- 2018}{Research Associate}{IIT Bombay, India}{
-		Reasearching the impact of adequate bamboo nutrition compared to
-		conventional feeding methods.}
-	\cvitem{2015 -- 2016}{Business Data Analyst}{HSBC, India}{Continuously achieving
-		better bamboo bangs for the buck.}
+		\textbullet Synthesize Interpenetrating Polymer Network (IPN) materials \\
+		\textbullet Modelled unusual self-assembly behaviour of polyelectrolytes \\
+		\chartlabel{Experimental design} \chartlabel{Modelling} \chartlabel{MATLAB}}
+	\cvitem{2015 -- 2016}{Business Data Analyst}{HSBC, India}{
+		\textbullet Automated workflow to identify regulatory anomalies in sales \\
+		\chartlabel{Statistical analysis}\chartlabel{Team management}}
 \end{cvtable}
 
 \medskip
 
 \cvsection{Publications}
 \begin{cvtable}
-	\cvpubitem{Cooking: 100 recipes for lazy Pandas}{Me and My Panda Friends}
-		{Panda's Culinary World}{2010}
-	\cvpubitem{Pandastasia}{Still Me}{Bamboo Books Assoc.}{2005}
+	\cvitemshort{2022}{\textbf{Pranav Sudersan}, Michael Kappl; Mechanisms of detachment in fibrillar adhesive systems. \emph{Journal of Theoretical Biology} 2022; doi: \href{https://doi.org/10.1016/j.jtbi.2022.111315}{10.1016/j.jtbi.2022.111315}}
+	\cvitemshort{2021}{\textbf{Pranav Sudersan}, Michael Kappl, Bat-El Pinchasik, Hans-Jürgen Butt, Thomas Endlein; Wetting of the tarsal adhesive fluid determines underwater adhesion in ladybird beetles. \emph{Journal of Experimental Biology} 15 October 2021; 224 (20): jeb242852. doi: \href{https://doi.org/10.1242/jeb.242852}{10.1242/jeb.242852}}
+\cvitemshort{under review}{Jiayu Song, Youmin Hou, \textbf{Pranav Sudersan}, Cheuk Wing Edmond Lam, Dimos Poulikakos, Hans-Jürgen Butt, King Lun Yeung; Inhibition of Condensation-Induced Wetting Transition by Nano-Hierarchical Surfaces}
 \end{cvtable}
 
 \medskip
