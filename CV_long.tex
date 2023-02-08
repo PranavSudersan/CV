@@ -133,11 +133,11 @@
 % personal website
 %\cvsite{https://pandascience.net}
 % email address
-\cvmail{pranasudersan@gmail.com}
+\cvmail{sudersanp@mpip-mainz.mpg.de} %pranasudersan@gmail.com
 % pgp key
 %\cvkey{ORCID: 0000-0003-2629-6535}{0000-0003-2629-6535} % put your actual ORCID here in the two brackets
-\cvcustomdata{\faGithub}{\href{https://orcid.org/0000-0003-2629-6535}{ORCID: 0000-0003-2629-6535}}
-\cvcustomdata{\faGithub}{\href{https://github.com/PranavSudersan}{github.com/PranavSudersan}}
+\cvcustomdata{\faOrcid }{\href{https://orcid.org/0000-0003-2629-6535}{ORCID: 0000-0003-2629-6535}}
+\cvcustomdata{\faGithub}{\href{https://github.com/PranavSudersan}{GitHub: PranavSudersan}}
 
 
 %-------------------------------------------------------------------------------
@@ -150,109 +150,119 @@
 	\graphicspath{{pics/flags/shiny/}}
 
 	% social network accounts incl. proper hyperlinks
-	\sidesection{Social Network}
-		\begin{icontable}{2.5em}{1em}
-			\social{\faLeaf}
-				{https://de.overleaf.com/latex/templates/forty-seconds-cv/pztcktmyngsk}
-				{Overleaf Template Link}
-			\social{\faGithub}
-				{https://github.com/PandaScience/FortySecondsCV}
-				{Github Project Page Link}
-		\end{icontable}
+%	\sidesection{Social Network}
+%		\begin{icontable}{2.5em}{1em}
+%			\social{\faLeaf}
+%				{https://de.overleaf.com/latex/templates/forty-seconds-cv/pztcktmyngsk}
+%				{Overleaf Template Link}
+%			\social{\faGithub}
+%				{https://github.com/PandaScience/FortySecondsCV}
+%				{Github Project Page Link}
+%		\end{icontable}
 
 	\profilesection{Interests}
+		\skill{\faGraduationCap}{Wetting and adhesion}
 		\skill{\faGraduationCap}{Bio-inspiration}
-		\skill{\faGraduationCap}{Materials and interfacial science}
-		\skill{\faGraduationCap}{Human-Robot Interaction}
-		\skill{\faGraduationCap}{Applied Intelligence}
-				\skill{\faGraduationCap}{Embedded Systems Design}
-
-
+		\skill{\faGraduationCap}{Interfacial science}
+		\skill{\faGraduationCap}{Nanostructured materials}
+		\skill{\faGraduationCap}{Contact mechanics}
+		
 	\profilesection{Skills}
+	\chartlabel{Experimental:}\\
+		\pointskill{}{AFM}{5}
+		\pointskill{}{Optical microscopy}{4}
+		\pointskill{}{Surface modification}{3}
+ 		\pointskill{}{Building setups}{4}
+ 		\pointskill{}{DSC, Rheometry}{3}
 	\chartlabel{Programming:}\\
 		\pointskill{}{Python}{5}
 		\pointskill{}{LABVIEW}{4}
  		\pointskill{}{MATLAB}{3}
-        	\chartlabel{Tools:}\\
-    		\pointskill{}{OpenCV, PCL}{4}
-		\pointskill{}{TensorFlow}{3}
-		\pointskill{}{Keras}{3}
-	\chartlabel{CAD Tools:}\\
-		\pointskill{}{CATIA}{4}
-		\pointskill{}{MSC ADAMS}{4}
-	\chartlabel{Robot Simulators:}\\
- 		\pointskill{}{V-REP, Webots}{5}
-		\pointskill{}{SOFA}{2}
-	\chartlabel{Languages:}
-		\pointskill{\flag{GB.png}}{English}{5}
-		\pointskill{\flag{India.png}}{Hindi}{5}
-		\pointskill{\flag{India.png}}{Malayalam}{5}
-		\pointskill{\flag{Germany.png}}{German}{2}
-		\pointskill{\flag{Spain.png}}{Spanish}{1}
+ 		\pointskill{}{\LaTeX}{4}
+	\chartlabel{Software:}\\
+		\pointskill{}{Surface Evolver}{5}
+		\pointskill{}{ImageJ}{4}
+		\pointskill{}{Git}{3}
+ 		
+%	\chartlabel{Languages:}\\
+%		\pointskill{\flag{GB.png}}{English}{5}
+%		\pointskill{\flag{India.png}}{Hindi}{5}
+%		\pointskill{\flag{India.png}}{Malayalam}{5}
+%		\pointskill{\flag{Germany.png}}{German}{2}
+%		\pointskill{\flag{Spain.png}}{Spanish}{1}
+
 }
 
 
 %-------------------------------------------------------------------------------
 %                              SIDEBAR 2nd PAGE
 %-------------------------------------------------------------------------------
-\definecolor{pastelgreen}{HTML}{D7ECD9}
-\definecolor{pastelpurple}{HTML}{D5D6EA}
-\definecolor{pastelorange}{HTML}{F5D5CB}
-\definecolor{pastelyellow}{HTML}{F6F6EB}
-
-\addtobacksidebar{
-	\sidesection{About Me}
-	\aboutme{
-		The giant panda is a terrestrial animal and primarily spends its life
-		roaming and feeding in the bamboo forests of the Qinling Mountains and in
-		the hilly province of Sichuan.
-	}
-
-	\sidesection{Diagrams}
-	\begin{sidebarminipage}
-		\chartlabel[pastelgreen]{Bubble}
-		\chartlabel[pastelgreen]{Diagrams}
-		\chartlabel[pastelpurple]{with}
-		\chartlabel[pastelpurple]{proper}
-		\chartlabel[pastelorange]{overflow}
-		\chartlabel[pastelorange]{protection}
-		\chartlabel[pastelyellow]{for}
-		\chartlabel[pastelyellow]{labels}
-	\end{sidebarminipage}
-
-	\begin{figure}\centering
-		\smartdiagram[bubble diagram]{
-			\textcolor{white}{\textbf{Being a}} \\
-			\textcolor{white}{\textbf{Panda}}, % center bubble
-			\textcolor{black!90}{Eating},
-			\textcolor{black!90}{Sleeping},
-			\textcolor{black!90}{Rolling},
-			\textcolor{black!90}{Playing},
-			\textcolor{black!90}{Chilling}
-		}
-	\end{figure}
-
-	\chartlabel{Wheel Chart}
-
-	\wheelchart{3.7em}{2em}{%
-	20/3em/maincolor!50/Chill,
-	15/3em/maincolor!15/Play,
-	30/4em/maincolor!40/Sleep,
-	20/3em/maincolor!20/Eat
-	}
-
-	\sidesection{Barskills}
-	\barskill[1ex]{\faSkyatlas}{Wearing asian rice hats}{60}
-	\barskill[2ex]{\faImage}{Playing Chess}{30}
-	\barskill[3ex]{\faMusic}{Playing the bamboo flute}{50}
-
-	\sidesection{Memberships}
-	\begin{memberships}
-		\membership[4em]{pics/logo.png}{PandaScience.net}
-		\membership[4em]{pics/logo.png}{Some longer text spanning over more than
-			only one line}
-	\end{memberships}
-}
+%\definecolor{pastelgreen}{HTML}{D7ECD9}
+%\definecolor{pastelpurple}{HTML}{D5D6EA}
+%\definecolor{pastelorange}{HTML}{F5D5CB}
+%\definecolor{pastelyellow}{HTML}{F6F6EB}
+%
+%\addtobacksidebar{
+%	\graphicspath{{pics/flags/shiny/}}
+%	
+%	\sidesection{About Me}
+%	\aboutme{
+%		The giant panda is a terrestrial animal and primarily spends its life
+%		roaming and feeding in the bamboo forests of the Qinling Mountains and in
+%		the hilly province of Sichuan.
+%	}
+%
+%%	\sidesection{Diagrams}
+%%	\begin{sidebarminipage}
+%%		\chartlabel[pastelgreen]{Bubble}
+%%		\chartlabel[pastelgreen]{Diagrams}
+%%		\chartlabel[pastelpurple]{with}
+%%		\chartlabel[pastelpurple]{proper}
+%%		\chartlabel[pastelorange]{overflow}
+%%		\chartlabel[pastelorange]{protection}
+%%		\chartlabel[pastelyellow]{for}
+%%		\chartlabel[pastelyellow]{labels}
+%%	\end{sidebarminipage}
+%%
+%%	\begin{figure}\centering
+%%		\smartdiagram[bubble diagram]{
+%%			\textcolor{white}{\textbf{Being a}} \\
+%%			\textcolor{white}{\textbf{Panda}}, % center bubble
+%%			\textcolor{black!90}{Eating},
+%%			\textcolor{black!90}{Sleeping},
+%%			\textcolor{black!90}{Rolling},
+%%			\textcolor{black!90}{Playing},
+%%			\textcolor{black!90}{Chilling}
+%%		}
+%%	\end{figure}
+%%
+%%	\chartlabel{Wheel Chart}
+%%
+%%	\wheelchart{3.7em}{2em}{%
+%%	20/3em/maincolor!50/Chill,
+%%	15/3em/maincolor!15/Play,
+%%	30/4em/maincolor!40/Sleep,
+%%	20/3em/maincolor!20/Eat
+%%	}
+%
+%	\sidesection{Languages}
+%%	\barskill[1ex]{\faSkyatlas}{Wearing asian rice hats}{60}
+%%	\barskill[2ex]{\faImage}{Playing Chess}{30}
+%%	\barskill[3ex]{\faMusic}{Playing the bamboo flute}{50}
+%	\barskill{\flag{GB.png}}{English}{100}
+%	\barskill{\flag{India.png}}{Hindi}{100}
+%	\barskill{\flag{India.png}}{Malayalam}{100}
+%	\barskill{\flag{Germany.png}}{German}{20}
+%	\barskill{\flag{Spain.png}}{Spanish}{10}
+%
+%		
+%%	\sidesection{Memberships}
+%%	\begin{memberships}
+%%		\membership[4em]{pics/logo.png}{PandaScience.net}
+%%		\membership[4em]{pics/logo.png}{Some longer text spanning over more than
+%%			only one line}
+%%	\end{memberships}
+%}
 
 
 %-------------------------------------------------------------------------------
@@ -266,8 +276,8 @@
 \begin{cvtable}[1.5]
 	\cvitem{2019 -- ongoing}{Ph.D. in Chemistry}{Max Planck Graduate Center, Mainz}
 		{
-		\textbf{Title}:Understanding reversible underwater adhesion in terrestrial ladybug beetles\\
-		\textbf{Supervisors}: Prof. Dr.Hans-Jürgen Butt, Prof. Dr. Eduard Arzt\\
+		\textbf{Title}: Understanding reversible underwater adhesion in terrestrial ladybug beetles\\
+		\textbf{Supervisors}: Prof. Dr. Hans-Jürgen Butt, Prof. Dr. Eduard Arzt\\
 		\textbf{Projects}:\\
 		\textbullet \emph{In-vivo} underwater adhesion measurements on insect legs \\
 		\textbullet Surface tension measurement of insect secretions using AFM \\
@@ -276,7 +286,7 @@
 		}
 	\cvitem{2010 -- 2015}{M.Tech and B.Tech in Chemical Engineering}{IIT Bombay, India}
 		{
-		\textbf{Title}:Preparation and characterization of sugar-oil microemulsion glasses\\
+		\textbf{Title}: Preparation and characterization of sugar-oil microemulsion glasses\\
 		\textbf{Supervisors}: Prof. Jyoti R. Seth \\
 		\textbf{Projects}:\\
 		\textbullet Phase study of solid microemulsions based on sugar-oil mixtures \\
@@ -294,43 +304,49 @@
 		\chartlabel{Interfacial science}\chartlabel{Data collection}}
 	\cvitem{2016 -- 2018}{Research Associate}{IIT Bombay, India}{
 		\textbullet Synthesize Interpenetrating Polymer Network (IPN) materials \\
-		\textbullet Modelled unusual self-assembly behaviour of polyelectrolytes \\
+		\textbullet Model unusual self-assembly behaviour of polyelectrolytes \\
 		\chartlabel{Experimental design} \chartlabel{Modelling} \chartlabel{MATLAB}}
 	\cvitem{2015 -- 2016}{Business Data Analyst}{HSBC, India}{
-		\textbullet Automated workflow to identify regulatory anomalies in sales \\
+		\textbullet Automate workflow to identify regulatory anomalies in sales \\
 		\chartlabel{Statistical analysis}\chartlabel{Team management}}
 \end{cvtable}
 
 \medskip
 
-\cvsection{Publications}
+\cvsection{Publications \& Patents}
 \begin{cvtable}
 	\cvitemshort{2022}{\textbf{Pranav Sudersan}, Michael Kappl; Mechanisms of detachment in fibrillar adhesive systems. \emph{Journal of Theoretical Biology} 2022; doi: \href{https://doi.org/10.1016/j.jtbi.2022.111315}{10.1016/j.jtbi.2022.111315}}
 	\cvitemshort{2021}{\textbf{Pranav Sudersan}, Michael Kappl, Bat-El Pinchasik, Hans-Jürgen Butt, Thomas Endlein; Wetting of the tarsal adhesive fluid determines underwater adhesion in ladybird beetles. \emph{Journal of Experimental Biology} 15 October 2021; 224 (20): jeb242852. doi: \href{https://doi.org/10.1242/jeb.242852}{10.1242/jeb.242852}}
+	\cvitemshort{2019}{\textbf{Pranav Sudersan}, Jyoti Ravishanker Seth; Method for preparing bi-continuous interpenetrating polymer network. \href{https://ipindiaservices.gov.in/PublicSearch/PublicationSearch/Eregister}{\emph{Intellectual Property India}}; Patent no: 390921}
 \cvitemshort{under review}{Jiayu Song, Youmin Hou, \textbf{Pranav Sudersan}, Cheuk Wing Edmond Lam, Dimos Poulikakos, Hans-Jürgen Butt, King Lun Yeung; Inhibition of Condensation-Induced Wetting Transition by Nano-Hierarchical Surfaces}
 \end{cvtable}
 
 \medskip
 
-\cvsection{Awards}
-\begin{cvtable}
-	\cvitem{2010 -- now}{Panda of the Year}{Panda World Forum}{}
-	\cvitem{2005 -- now}{Face of World Wide Fund for Nature}{WWF}{}
-	\cvitem{2000}{Winner of Bamboo Sprouts Eating Contest}{Bamboo Society}{}
+%\cvsection{Awards}
+%\begin{cvtable}
+%	\cvitem{2010 -- now}{Panda of the Year}{Panda World Forum}{}
+%	\cvitem{2005 -- now}{Face of World Wide Fund for Nature}{WWF}{}
+%	\cvitem{2000}{Winner of Bamboo Sprouts Eating Contest}{Bamboo Society}{}
+%\end{cvtable}
+%
+%\medskip
+
+\cvsection{Additional Information}
+\begin{cvtable}[1.5]
+	\cvitemshort{\textbf{GRE (2017)}}{Total: 326/340, Quant.: 170/170, Verbal: 156/170}
+	\cvitemshort{\textbf{Languages}}{
+					\barskill{\faMicrophone}{ English, Hindi, Malayalam (native speaker)}{100} 
+					\barskill{\faMicrophoneSlash}{German, Spanish (learning)}{10}
+					}
+	\cvitemshort{\textbf{Extracurricular}}{playing guitar, DIY electronics, biking}
 \end{cvtable}
 
-\medskip
+\bigskip
+\emph{References available on request}
 
-\cvsection{Extra-Curricular Activities}
-\begin{cvtable}
-	\cvitemshort{Relaxing}{Master the fine art of relaxing everywhere}
-	\cvitemshort{Music}{Playing the bamboo flute in the 1st Panda Orchestra}
-	\cvitemshort{Education}{Teaching young pandas to be more panda-like}
-\end{cvtable}
-
-
-\newpage
-\makebacksidebar
+%\newpage
+%\makebacksidebar
 % \newgeometry{
 % 	top=\topbottommargin,
 % 	bottom=\topbottommargin,
@@ -338,55 +354,55 @@
 % 	left=\leftrightmargin
 % }
 
-\cvsection{section}
-\cvsubsection{Subsection}
-\begin{cvtable}
-	\cvitem{<dates>}{<cv-item title>}{<location>}{<optional: description>}
-\end{cvtable}
-
-\cvsection{cvitem}
-\cvsubsection{Multi-line with longer description}
-\begin{cvtable}
-	\cvitem{date}{Description}{location}{Some longer and more detailed
-		description, that takes two lines of space instead of only one.}
-	\cvitem{date}{Description}{location}{Some longer and more detailed
-		description, that takes two lines of space instead of only one.}
-	\cvitem{date}{Description}{location}{Some longer and more detailed
-		description, that takes two lines of space instead of only one.}
-\end{cvtable}
-
-\cvsubsection{One-line without description}
-\begin{cvtable}
-	\cvitem{Award}{One-line description}{Sponsor}{}
-	\cvitem{Award}{One-line description}{Sponsor}{}
-	\cvitem{Award}{One-line description}{Sponsor}{}
-\end{cvtable}
-
-\cvsection{cvitemshort}
-\cvsubsection{One-line}
-\begin{cvtable}
-	\cvitemshort{Key}{Some further description}
-	\cvitemshort{Key}{Some further description}
-	\cvitemshort{Key}{Some further description}
-\end{cvtable}
-
-\cvsubsection{Multi-line with longer description}
-\begin{cvtable}
-	\cvitemshort{Key}{Some further description. Can fill even more than
-		only one single line while still keeping the correct indendation level.}
-	\cvitemshort{Key}{Some further description. Can fill even more than
-		only one single line while still keeping the correct indendation level.}
-	\cvitemshort{Key}{Some further description. Can fill even more than
-		only one single line while still keeping the correct indendation level.}
-\end{cvtable}
-
-\cvsection{cvpubitem}
-\begin{cvtable}
-	\cvpubitem{Publication title}{Authors}{Journal}{Year}
-	\cvpubitem{Publication title}{Authors}{Journal}{Year}
-	\cvpubitem{Publication title that is spanning over multiple lines and still
-		does not look too bad}{Authors}{Journal}{Year}
-\end{cvtable}
+%\cvsection{section}
+%\cvsubsection{Subsection}
+%\begin{cvtable}
+%	\cvitem{<dates>}{<cv-item title>}{<location>}{<optional: description>}
+%\end{cvtable}
+%
+%\cvsection{cvitem}
+%\cvsubsection{Multi-line with longer description}
+%\begin{cvtable}
+%	\cvitem{date}{Description}{location}{Some longer and more detailed
+%		description, that takes two lines of space instead of only one.}
+%	\cvitem{date}{Description}{location}{Some longer and more detailed
+%		description, that takes two lines of space instead of only one.}
+%	\cvitem{date}{Description}{location}{Some longer and more detailed
+%		description, that takes two lines of space instead of only one.}
+%\end{cvtable}
+%
+%\cvsubsection{One-line without description}
+%\begin{cvtable}
+%	\cvitem{Award}{One-line description}{Sponsor}{}
+%	\cvitem{Award}{One-line description}{Sponsor}{}
+%	\cvitem{Award}{One-line description}{Sponsor}{}
+%\end{cvtable}
+%
+%\cvsection{cvitemshort}
+%\cvsubsection{One-line}
+%\begin{cvtable}
+%	\cvitemshort{Key}{Some further description}
+%	\cvitemshort{Key}{Some further description}
+%	\cvitemshort{Key}{Some further description}
+%\end{cvtable}
+%
+%\cvsubsection{Multi-line with longer description}
+%\begin{cvtable}
+%	\cvitemshort{Key}{Some further description. Can fill even more than
+%		only one single line while still keeping the correct indendation level.}
+%	\cvitemshort{Key}{Some further description. Can fill even more than
+%		only one single line while still keeping the correct indendation level.}
+%	\cvitemshort{Key}{Some further description. Can fill even more than
+%		only one single line while still keeping the correct indendation level.}
+%\end{cvtable}
+%
+%\cvsection{cvpubitem}
+%\begin{cvtable}
+%	\cvpubitem{Publication title}{Authors}{Journal}{Year}
+%	\cvpubitem{Publication title}{Authors}{Journal}{Year}
+%	\cvpubitem{Publication title that is spanning over multiple lines and still
+%		does not look too bad}{Authors}{Journal}{Year}
+%\end{cvtable}
 
 \cvsignature
 
