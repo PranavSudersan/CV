@@ -1,0 +1,343 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage[backend=biber,style=chem-acs,sorting=ynt,articletitle=true,isbn=false,url=false,doi=true,eprint=false,maxbibnames=4, minbibnames=4]{biblatex}
+\input{glyphtounicode}
+
+\addbibresource{publications.bib} % Replace with your actual .bib file name
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+	\vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+% Custom bibliography formatting
+\setlength\bibitemsep{0.5\itemsep} %spacing between bib entries
+\renewcommand*{\bibfont}{\small}
+
+% Bold specific author names
+\newcommand*{\boldname}[3]{%
+	\def\lastname{#1}%
+	\def\firstname{#2}%
+	\def\firstinit{#3}}
+\boldname{Sudersan}{Pranav}{P.}
+
+\DeclareFieldFormat{doi}{%
+	doi:\space
+	\ifhyperref
+	{\lowercase{\href{https://doi.org/#1}{\nolinkurl{#1}}}}
+	{\lowercase{\nolinkurl{#1}}}}
+
+% Patch new definitions
+\renewcommand{\mkbibnamegiven}[1]{%
+	\ifboolexpr{ ( test {\ifdefequal{\firstname}{\namepartgiven}} or test {\ifdefequal{\firstinit}{\namepartgiven}} ) and test {\ifdefequal{\lastname}{\namepartfamily}} }
+	{\mkbibbold{#1}}{#1}%
+}
+
+\renewcommand{\mkbibnamefamily}[1]{%
+	\ifboolexpr{ ( test {\ifdefequal{\firstname}{\namepartgiven}} or test {\ifdefequal{\firstinit}{\namepartgiven}} ) and test {\ifdefequal{\lastname}{\namepartfamily}} }
+	{\mkbibbold{#1}}{#1}%
+}
+
+
+%-------------------------
+% Custom commands
+
+\newcommand{\resumePub}[1]{
+	\item \small{#1}
+}
+
+\newcommand{\resumeParagraph}[1]{
+	\vspace{0pt}\par % Adjust the spacing above the paragraph as needed
+	\noindent\small{#1} \vspace{0pt} % Adjust the spacing below the paragraph as needed
+}
+
+\newcommand{\resumeItem}[1]{
+	\item\small{
+		{#1 \vspace{-2pt}}
+	}
+}
+
+\newcommand{\resumeSubheading}[4]{
+	\vspace{-2pt}\item
+	\begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+		\textbf{#1} & #2 \\
+		\textit{\small#3} & \textit{\small #4} \\
+	\end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+	\item
+	\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+		\textit{\small#1} & \textit{\small #2} \\
+	\end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+	\item
+	\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+		\small#1 & #2 \\
+	\end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+	\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+	\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+	
+	%----------HEADING----------
+	% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+		%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+		%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+		% \end{tabular*}
+	
+%	\begin{center}
+%		\textbf{\Huge \scshape Pranav Sudersan} \\ \vspace{1pt}
+%		\small Murcia, Spain $|$ \href{mailto:p.sudersan@um.es}{{p.sudersan@um.es}} \\%$|$ 
+%		\href{https://orcid.org/0000-0003-2629-6535}{\underline{orcid:} 0000-0003-2629-6535} $|$
+%		\href{https://github.com/PranavSudersan/}{{github.com/PranavSudersan}}
+%	\end{center}
+
+	\begin{center}
+		\textbf{\Huge \scshape Pranav Sudersan} \\ \vspace{4pt}
+		\small
+		\faGlobe \, Indian $|$
+		\faMapMarker \, Murcia, Spain $|$  % Location icon
+		\faEnvelope \, \href{mailto:p.sudersan@um.es}{p.sudersan@um.es} \\% Email icon
+		\faOrcid \, \href{https://orcid.org/0000-0003-2629-6535}{0000-0003-2629-6535} $|$  % ORCID icon
+		\faGithub \, \href{https://github.com/PranavSudersan}{github.com/PranavSudersan}  % GitHub icon
+	\end{center}
+	
+	\textbf{Expertise:} surface science, atomic force microscopy, modelling and programming
+	
+	%-----------EDUCATION-----------
+	\section{Education}
+	\resumeSubHeadingListStart
+	\resumeSubheading
+	{Ph.D. in Chemistry}{Feb. 2019 -- Jul. 2023}
+	{Johannes Gutenberg University (Max Planck Graduate Center)}{Mainz, Germany}
+	\resumeParagraph{\emph{PhD thesis:} Understanding reversible underwater adhesion in terrestrial ladybug beetles}\vspace{-4pt}
+	\resumeParagraph{\emph{Supervisors:} Prof. Dr. Hans-Jürgen Butt, Prof. Dr. Eduard Arzt}
+	\resumeSubheading
+	{M.Tech and B.Tech in Chemical Engineering}{Jul. 2010 -- Aug 2015}
+	{Indian Institute of Technology (IIT-B)}{Mumbai, India}
+	\resumeParagraph{\emph{Masters thesis:} Preparation and characterization of sugar-oil microemulsion glasses}\vspace{-4pt}
+	\resumeParagraph{\emph{Supervisor:} Prof. Dr. Jyoti R. Seth}
+	\resumeSubHeadingListEnd
+	
+	
+	%-----------WORK EXPERIENCE-----------
+	\section{Work Experience}
+	\resumeSubHeadingListStart
+	
+	\resumeSubheading
+	{Postdoctoral Researcher}{Jan. 2024 -- Present}
+	{University of Murcia (UM)}{Murcia, Spain}
+%	\resumeItemListStart
+%	\resumeItem{Developing technique for nano-scale wetting characterization using non-contact Atomic Force Microscopy}
+%	\resumeItemListEnd
+	
+	% -----------Multiple Positions Heading-----------
+	%    \resumeSubSubheading
+	%     {Software Engineer I}{Oct 2014 - Sep 2016}
+	%     \resumeItemListStart
+	%        \resumeItem{Apache Beam}
+	%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+	%     \resumeItemListEnd
+	%    \resumeSubHeadingListEnd
+	%-------------------------------------------
+	
+	\resumeSubheading
+	{Doctoral Researcher}{Feb. 2019 -- Apr. 2023}
+	{Max Planck Institute for Polymer Research (MPIP)}{Mainz, Germany}
+%	\resumeItemListStart
+%	\resumeItem{\textit{In-vivo} underwater adhesion measurements on insect legs}
+%	\resumeItem{Surface tension measurement of insect secretions using AFM}
+%	\resumeItem{Theoretical modelling of the mechanism of reversible adhesion}
+%	\resumeItemListEnd
+	
+	\resumeSubheading
+	{Project Assistant}{Jul. 2018 -- Oct. 2018}
+	{Institute of Chemical Technology (ICT)}{Mumbai, India}
+%	\resumeItemListStart
+%	\resumeItem{Efficacy of soap formulations using dynamic interfacial tension}
+%	\resumeItemListEnd
+
+	\resumeSubheading
+	{Research Associate}{Aug. 2016 -- Jun. 2018}
+	{Indian Institute of Technology (IIT-B)}{Mumbai, India}
+%	\resumeItemListStart
+%	\resumeItem{Synthesize Interpenetrating Polymer Network (IPN) materials}
+%	\resumeItem{Model unusual self-assembly behaviour of polyelectrolytes}
+%	\resumeItemListEnd
+	
+	\resumeSubheading
+	{Business Data Analyst}{Jul. 2015 -- Jul. 2016}
+	{Hongkong and Shanghai Banking Corporation (HSBC)}{Bangalore, India}
+%	\resumeItemListStart
+%	\resumeItem{Automate workflow to identify regulatory anomalies in sales}
+%	\resumeItemListEnd
+	
+	\resumeSubHeadingListEnd
+	
+	
+	%-----------RESEARCH PROJECTS-----------
+	\section{Research Projects}
+	\resumeSubHeadingListStart
+	
+	\resumeProjectHeading
+	{\textbf{Nano-scale wetting characterization using non-contact AFM} $|$ \emph{UM, Spain}}{Jam. 2024 -- Present}
+	\resumeItemListStart
+	\resumeItem{Detailed investigation of the effect of capillary condensation on tip-sample interaction in a dynamic AFM system was performed using simulations and experiments.}
+	\resumeItem{Dynamics of the oscillating cantilever was numerically simulated to identify the conservative and dissipative interaction contributions of the condensed liquid neck.}
+	\resumeItem{Interaction vs distance experiments were performed while maintaining the system at resonance with a phase-locked-loop. Such a method allows stable non-contact probing of the liquid neck via the amplitude (dissipative) and frequency shift (conservative) channels.}
+	\resumeItemListEnd
+	
+	\resumeProjectHeading
+	{\textbf{Surface tension measurement of micro-droplets using AFM} $|$ \emph{MPIP, Germany}}{Jan. 2022 -- Apr. 2023}
+	\resumeItemListStart
+	\resumeItem{Developed a new method to measure surface tension of micrometre sized liquid drops with an AFM using standard cantilevers, eliminating the need of expensive ``nano-needle" shaped tips used by state-of-the-art methods.}
+	\resumeItem{Polymer-brush based simple coating procedure was used to make the cantilever tip ``non-stick", which allowed measurements with negligible loss of liquid.}
+	\resumeItem{The capillary force interaction of a pyramid shaped tip with the liquid drop was modelled using numerical simulations and subsequently used to calculate surface tension from experimental force curves.}
+	\resumeItemListEnd
+
+	\resumeProjectHeading
+	{\textbf{Mechanism of reversible underwater adhesion in ladybug beetles} $|$ \emph{MPIP, Germany}}{Feb. 2019 -- Oct. 2021}
+	\resumeItemListStart
+	\resumeItem{Developed a setup to perform \emph{in-vivo} adhesion measurements of a ladybug's foot against a surface underwater.}
+	\resumeItem{The role of an air-bubble trapped within the foot's hairs when underwater was systematically investigated on hydrophilic and hydrophobic functionalized glass surfaces, with and without the trapped air bubble.}
+	\resumeItem{Experiments were complimented with simple modelling of the hairy foot's adhesion to conclude that the insect's oily secretion at the hair's tips plays a dominant role in its underwater adhesion via capillary forces, while the force contribution due to the trapped bubble is rather negligible.}
+	\resumeItemListEnd
+	
+	\vspace{4pt}
+	
+	\resumeProjectHeading
+	{\textbf{Dynamic interfacial tension measurement of soap solutions} $|$ \emph{ICT, India}}{Jul. 2018 -- Oct. 2018}
+	\resumeItemListStart
+	\resumeItem{Devised a simple setup to measure dynamic interfacial tension using drop-volume method.}
+	\resumeItem{Efficacy of various soap formulations for cleaning oil (dirt) was evaluated by above method.}
+	\resumeItemListEnd
+	
+	\resumeProjectHeading
+	{\textbf{Unusual self-assembly of polyelectrolytes into micro-fibrils} $|$ \emph{IIT-B, India}}{Aug. 2016 -- Jun. 2018}
+	\resumeItemListStart
+	\resumeItem{Self-assembly mechanism of polyethylenimine (PEI) into microfibrils was modelled by minimizing the total energy of the system in various configurations, thereby numerically simulating a phase-space.}
+	\resumeItem{Positively charged PEI chains were found to counter-intuitively attract under specific conditions within this phase-space, resulting from an entropic effect by shared counterions between the PEI chains.}
+	\resumeItemListEnd
+	
+	\resumeProjectHeading
+	{\textbf{Preparation and characterization of sugar-oil complex glasses} $|$ \emph{IIT-B, India}}{May. 2014 -- Aug. 2015}
+	\resumeItemListStart
+	\resumeItem{Solid-state microemulsions were synthesized using a mixture of sucrose, limonene oil and surfactant.}
+	\resumeItem{The microemulsion was used later as a template to prepare interpenetrating polymer networks.}
+	\resumeItemListEnd
+	
+	\resumeSubHeadingListEnd
+	
+	
+	
+	%
+	%-----------TECHNICAL SKILLS-----------
+	\section{Technical Skills}
+	\vspace{4pt}
+	\begin{itemize}[leftmargin=0.15in, label={}]
+		\small{\item{
+				\textbf{Experimental}{: AFM, Chemical Vapour Deposition, Optical microscopy,  Design/build setups, Surface functionalization} \vspace{-6pt}}
+				\item{\textbf{Programming}{: Python, LABVIEW, MATLAB, \LaTeX}} \vspace{-6pt}
+				\item{\textbf{Software}{: Git, Linux, Surface Evolver, ImageJ, MS Excel/VBA}}
+		}
+	\end{itemize}
+	
+	
+	%--------------PUBLICATIONS---------------
+	\section{Publications}
+%	\fullcite{sudersan2021}
+%	\resumeSubHeadingListStart
+%	\resumeItem{\fullcite{sudersan2021}}
+%	\begin{enumerate}[leftmargin=0.15in, label={}]
+	\begin{refsection}
+		\nocite{*} % This includes all entries from the .bib file
+		\printbibliography[heading=none] % Print the bibliography without the default heading
+	\end{refsection}
+%	\end{enumerate}
+	
+%	\resumeSubHeadingListEnd
+
+
+	%
+%-----------MISCELLANEOUS-----------
+\section{Miscellaneous}
+\vspace{4pt}
+\begin{itemize}[leftmargin=0.15in, label={}]
+	\small{\item{
+			\textbf{Softwares developed}{: 1) \emph{\href{https://github.com/PranavSudersan/AFM-Dashboard}{AFM Dashboard}} - An interactive Jupyter notebook to read and analyse AFM data; \\ 2) \emph{\href{https://github.com/PranavSudersan/Buggee}{Buggee}} - A python based GUI tool for synchronous video and text data processing for scientific analysis}} \vspace{-4pt}
+			\item{\textbf{Conferences}{: European Colloidal and Interfacial Society Conference 2024 (poster); Spanish Royal Society of Physics Biennial 2024 (oral \& poster); Society of Experimental Biology Annual Conference 2021 (oral); Congress of the International Society of Biomechanics 2021 (oral)}} \vspace{-4pt}
+			\item{\textbf{Languages}{: Fluent in English, Hindi and Malayalam, A1 level in Spanish and German} \vspace{-4pt}
+			\item{\textbf{GRE scores (2017)}{: Total: 326/340, Quantitative: 170/170, Verbal: 156/170}} \vspace{-4pt}
+			\item{\textbf{Hobbies}{: Guitar/music production, DIY electronics, biking}}
+	}}
+\end{itemize}
+
+\end{document}

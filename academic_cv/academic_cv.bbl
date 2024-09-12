@@ -1,0 +1,532 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{1}
+  \datalist[entry]{ynt/global//global/global}
+    \entry{sudersan2019}{patent}{}
+      \name{author}{2}{}{%
+        {{hash=ec101752b46d0674a3ad81dc787cc336}{%
+           family={Sudersan},
+           familyi={S\bibinitperiod},
+           given={Pranav},
+           giveni={P\bibinitperiod}}}%
+        {{hash=23fef262e4013e39af32e3cad0e1cb56}{%
+           family={Seth},
+           familyi={S\bibinitperiod},
+           given={Jyoti},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {India}%
+      }
+      \strng{namehash}{c03d838b6b83112ebfe58255ddc44f9d}
+      \strng{fullhash}{c03d838b6b83112ebfe58255ddc44f9d}
+      \strng{bibnamehash}{c03d838b6b83112ebfe58255ddc44f9d}
+      \strng{authorbibnamehash}{c03d838b6b83112ebfe58255ddc44f9d}
+      \strng{authornamehash}{c03d838b6b83112ebfe58255ddc44f9d}
+      \strng{authorfullhash}{c03d838b6b83112ebfe58255ddc44f9d}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{30}
+      \field{month}{7}
+      \field{number}{390921}
+      \field{title}{Method for Preparing Bi-Continuous Inter- Penetrating Polymer Network}
+      \field{type}{patent}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://iprsearch.ipindia.gov.in/PublicSearch/PublicationSearch/Eregister
+      \endverb
+      \verb{url}
+      \verb https://iprsearch.ipindia.gov.in/PublicSearch/PublicationSearch/Eregister
+      \endverb
+    \endentry
+    \entry{sudersan2021}{article}{}
+      \name{author}{5}{}{%
+        {{hash=ec101752b46d0674a3ad81dc787cc336}{%
+           family={Sudersan},
+           familyi={S\bibinitperiod},
+           given={Pranav},
+           giveni={P\bibinitperiod}}}%
+        {{hash=c0422fbe181b014e75854ff09aa18bcf}{%
+           family={Kappl},
+           familyi={K\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=59422677d36e62e713993dd7bb046694}{%
+           family={Pinchasik},
+           familyi={P\bibinitperiod},
+           given={Bat-El},
+           giveni={B\bibinithyphendelim E\bibinitperiod}}}%
+        {{hash=2731b858a00639318cb57f3e8febfba1}{%
+           family={Butt},
+           familyi={B\bibinitperiod},
+           given={Hans-Jürgen},
+           giveni={H\bibinithyphendelim J\bibinitperiod}}}%
+        {{hash=29657b4512d342d166d37741194c2f9e}{%
+           family={Endlein},
+           familyi={E\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{00c7f3bf915f93f2effc1f9e14b434d2}
+      \strng{fullhash}{1d502651d8a0d85f1e4b2cc4789a9e49}
+      \strng{bibnamehash}{103129e17fd7fb833bd78468f17128e3}
+      \strng{authorbibnamehash}{103129e17fd7fb833bd78468f17128e3}
+      \strng{authornamehash}{00c7f3bf915f93f2effc1f9e14b434d2}
+      \strng{authorfullhash}{1d502651d8a0d85f1e4b2cc4789a9e49}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Many insects can climb smooth surfaces using hairy adhesive pads on their legs, mediated by tarsal fluid secretions. It was previously shown that a terrestrial beetle can even adhere and walk underwater. The naturally hydrophobic hairs trap an air bubble around the pads, allowing the hairs to make contact with the substrate as in air. However, it remained unclear to what extent such an air bubble is necessary for underwater adhesion. To investigate the role of the bubble, we measured the adhesive forces in individual legs of live but constrained ladybird beetles underwater in the presence and absence of a trapped bubble and compared these with its adhesion in air. Our experiments revealed that on a hydrophobic substrate, even without a bubble, the pads show adhesion comparable to that in air. On a hydrophilic substrate, underwater adhesion is significantly reduced, with or without a trapped bubble. We modelled the adhesion of a hairy pad using capillary forces. Coherent with our experiments, the model demonstrates that the wetting properties of the tarsal fluid alone can determine the ladybird beetles' adhesion to smooth surfaces in both air and underwater conditions and that an air bubble is not a prerequisite for their underwater adhesion. This study highlights how such a mediating fluid can serve as a potential strategy to achieve underwater adhesion via capillary forces, which could inspire artificial adhesives for underwater applications.}
+      \field{annotation}{1 citations (Crossref) [2023-02-22]}
+      \field{issn}{0022-0949}
+      \field{journaltitle}{Journal of Experimental Biology}
+      \field{month}{10}
+      \field{number}{20}
+      \field{title}{Wetting of the Tarsal Adhesive Fluid Determines Underwater Adhesion in Ladybird Beetles}
+      \field{volume}{224}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.1242/jeb.242852
+      \endverb
+      \verb{file}
+      \verb /home/pranav/Work/Literature/Zotero/Sudersan et al_2021_Wetting of the tarsal adhesive fluid determines underwater adhesion in ladybird.pdf
+      \endverb
+      \verb{urlraw}
+      \verb ://WOS:000715883300010 https://cob.silverchair-cdn.com/cob/content_public/journal/jeb/224/20/10.1242_jeb.242852/1/jeb242852.pdf?Expires=1640859856&Signature=lOglJgxfMKuGof~UB01G71832dYr67L8RBldlEeKZ39OjarTYy9JrsAfsPeeVCKW-~0AiDADDhJKDFkosnvjQJu~VCBBoJH1xl-g07kPg547Yf~rgQ~ENpK6KRbJhyLdCl-ZBjIses6EGfE~mzsEiklbuFqSVrcEq8Z-Yny01K3D2R9WV8Vo4ZyO0jsom5YGzMQ-Pd28O8YrDK4xOQPi8TJwVyUFu9kY9~LWUjQ3yZO81xsDqoStzeF8zWwUeht7ak4Fr9DtrjtGqyI3sr~AkUf0GWTctUKpdSkt3kuT4w~RE7j1RYpvHxmKI0JupV46h52fCpl4~Nqed4yemo6Bsg__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA
+      \endverb
+      \verb{url}
+      \verb ://WOS:000715883300010%20https://cob.silverchair-cdn.com/cob/content_public/journal/jeb/224/20/10.1242_jeb.242852/1/jeb242852.pdf?Expires=1640859856&Signature=lOglJgxfMKuGof~UB01G71832dYr67L8RBldlEeKZ39OjarTYy9JrsAfsPeeVCKW-~0AiDADDhJKDFkosnvjQJu~VCBBoJH1xl-g07kPg547Yf~rgQ~ENpK6KRbJhyLdCl-ZBjIses6EGfE~mzsEiklbuFqSVrcEq8Z-Yny01K3D2R9WV8Vo4ZyO0jsom5YGzMQ-Pd28O8YrDK4xOQPi8TJwVyUFu9kY9~LWUjQ3yZO81xsDqoStzeF8zWwUeht7ak4Fr9DtrjtGqyI3sr~AkUf0GWTctUKpdSkt3kuT4w~RE7j1RYpvHxmKI0JupV46h52fCpl4~Nqed4yemo6Bsg__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA
+      \endverb
+    \endentry
+    \entry{song2023}{article}{}
+      \name{author}{7}{}{%
+        {{hash=2dc1e1676ebde8bf8764a8703ef89475}{%
+           family={Song},
+           familyi={S\bibinitperiod},
+           given={Jiayu},
+           giveni={J\bibinitperiod}}}%
+        {{hash=47615df8d56c4146fc7a037e07524d64}{%
+           family={Hou},
+           familyi={H\bibinitperiod},
+           given={Youmin},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=ec101752b46d0674a3ad81dc787cc336}{%
+           family={Sudersan},
+           familyi={S\bibinitperiod},
+           given={Pranav},
+           giveni={P\bibinitperiod}}}%
+        {{hash=ffeac3d04df1f779c121f5ff8af10c9c}{%
+           family={Lam},
+           familyi={L\bibinitperiod},
+           given={Cheuk\bibnamedelimb Wing\bibnamedelima Edmond},
+           giveni={C\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=6f03db35611b4da14228a75199f78129}{%
+           family={Poulikakos},
+           familyi={P\bibinitperiod},
+           given={Dimos},
+           giveni={D\bibinitperiod}}}%
+        {{hash=2731b858a00639318cb57f3e8febfba1}{%
+           family={Butt},
+           familyi={B\bibinitperiod},
+           given={Hans-Jürgen},
+           giveni={H\bibinithyphendelim J\bibinitperiod}}}%
+        {{hash=9171a9d5ded7fc1ff60d8a0f5d3ed7b6}{%
+           family={Yeung},
+           familyi={Y\bibinitperiod},
+           given={King\bibnamedelima Lun},
+           giveni={K\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{93e9461cfce7730ff0ae3a01e23b9173}
+      \strng{fullhash}{45ada096682aede3ad358850fedb7e0f}
+      \strng{bibnamehash}{6bb2a98f142ad74926bce0cb42a1e3ba}
+      \strng{authorbibnamehash}{6bb2a98f142ad74926bce0cb42a1e3ba}
+      \strng{authornamehash}{93e9461cfce7730ff0ae3a01e23b9173}
+      \strng{authorfullhash}{45ada096682aede3ad358850fedb7e0f}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{13858947}
+      \field{journaltitle}{Chemical Engineering Journal}
+      \field{langid}{english}
+      \field{month}{3}
+      \field{shortjournal}{Chemical Engineering Journal}
+      \field{title}{Inhibition of Condensation-Induced Droplet Wetting by Nano-Hierarchical Surfaces}
+      \field{urlday}{22}
+      \field{urlmonth}{3}
+      \field{urlyear}{2023}
+      \field{volume}{460}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{141761}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.cej.2023.141761
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S1385894723004928
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S1385894723004928
+      \endverb
+    \endentry
+    \entry{sudersan2023}{article}{}
+      \name{author}{2}{}{%
+        {{hash=ec101752b46d0674a3ad81dc787cc336}{%
+           family={Sudersan},
+           familyi={S\bibinitperiod},
+           given={Pranav},
+           giveni={P\bibinitperiod}}}%
+        {{hash=c0422fbe181b014e75854ff09aa18bcf}{%
+           family={Kappl},
+           familyi={K\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{5b668b656330ff5d6f6002d32fccdb25}
+      \strng{fullhash}{5b668b656330ff5d6f6002d32fccdb25}
+      \strng{bibnamehash}{5b668b656330ff5d6f6002d32fccdb25}
+      \strng{authorbibnamehash}{5b668b656330ff5d6f6002d32fccdb25}
+      \strng{authornamehash}{5b668b656330ff5d6f6002d32fccdb25}
+      \strng{authorfullhash}{5b668b656330ff5d6f6002d32fccdb25}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Several creatures can climb on smooth surfaces with the help of hairy adhesive pads on their legs. A rapid change from strong attachment to effortless detachment of the leg is enabled by the asymmetric geometry of the tarsal hairs. In this study, we propose mechanisms by which the hairy pad can be easily detached, even when the hairs possess no asymmetry. Here, we examine the possible function of the tibia-tarsus leg joint and the claws. Based on a spring-based model, we consider three modes of detachment: vertically pulling the pad while maintaining either a (1) fixed or a (2) free joint, or by (3) flexing the pad about the claw. We show that in all cases, the adhesion force can be significantly reduced due to elastic forces when the hairs deform non-uniformly across the array. Our proposed model illustrates the design advantage of such fibrillar adhesive systems, that not only provide strong adhesion, but also allow easy detachment, making them suitable as organs for fast locomotion and reliable hold. The presented approaches can be potentially used to switch the adhesion state in bio-inspired fibrillar adhesives, by incorporating artificial joints and claws into their design, without the need of asymmetric or stimuli-responsive fibrillar structures.}
+      \field{annotation}{0 citations (Crossref) [2023-02-22]}
+      \field{day}{21}
+      \field{issn}{0022-5193}
+      \field{journaltitle}{Journal of Theoretical Biology}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{shortjournal}{Journal of Theoretical Biology}
+      \field{title}{Mechanisms of Detachment in Fibrillar Adhesive Systems}
+      \field{urlday}{21}
+      \field{urlmonth}{2}
+      \field{urlyear}{2023}
+      \field{volume}{557}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{111315}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.jtbi.2022.111315
+      \endverb
+      \verb{file}
+      \verb /home/pranav/Work/Literature/Zotero/Sudersan_Kappl_2023_Mechanisms of detachment in fibrillar adhesive systems.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S002251932200306X
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S002251932200306X
+      \endverb
+    \endentry
+    \entry{sudersan2023a}{article}{}
+      \name{author}{6}{}{%
+        {{hash=ec101752b46d0674a3ad81dc787cc336}{%
+           family={Sudersan},
+           familyi={S\bibinitperiod},
+           given={Pranav},
+           giveni={P\bibinitperiod}}}%
+        {{hash=e6ff265e098b26875803d08edc7587c1}{%
+           family={Müller},
+           familyi={M\bibinitperiod},
+           given={Maren},
+           giveni={M\bibinitperiod}}}%
+        {{hash=b5b12f848f4bc2e07cd8dd64d9b65304}{%
+           family={Hormozi},
+           familyi={H\bibinitperiod},
+           given={Mohammad},
+           giveni={M\bibinitperiod}}}%
+        {{hash=872785dbf8bc749bb3a72a476ff44af5}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Shuai},
+           giveni={S\bibinitperiod}}}%
+        {{hash=2731b858a00639318cb57f3e8febfba1}{%
+           family={Butt},
+           familyi={B\bibinitperiod},
+           given={Hans-Jürgen},
+           giveni={H\bibinithyphendelim J\bibinitperiod}}}%
+        {{hash=c0422fbe181b014e75854ff09aa18bcf}{%
+           family={Kappl},
+           familyi={K\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Chemical Society}%
+      }
+      \strng{namehash}{00c7f3bf915f93f2effc1f9e14b434d2}
+      \strng{fullhash}{671f5e895b5d6ff0ef168dc37671eae3}
+      \strng{bibnamehash}{d3fbd89d9920de1781aa7d8afc1d30f8}
+      \strng{authorbibnamehash}{d3fbd89d9920de1781aa7d8afc1d30f8}
+      \strng{authornamehash}{00c7f3bf915f93f2effc1f9e14b434d2}
+      \strng{authorfullhash}{671f5e895b5d6ff0ef168dc37671eae3}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Surface tension is a physical property that is central to our understanding of wetting phenomena. One could easily measure liquid surface tension using commercially available tensiometers (e.g., Wilhelmy plate method) or by optical imaging (e.g., pendant drop method). However, such instruments are designed for bulk liquid volumes on the order of milliliters. In order to perform similar measurements on extremely small sample volumes in the range of femtoliters, atomic force microscope (AFM) is considered as a promising tool. It was previously reported that by fabricating a special “nanoneedle”-shaped cantilever probe, a Wilhelmy-like experiment can be performed with AFM. By measuring the capillary force between such special probes and a liquid surface, surface tension could be calculated. Here, we carried out measurements on microscopic droplets with AFM, but instead, using standard pyramidal cantilever tips. The cantilevers were coated with a hydrophilic polyethylene glycol-based polymer brush in a simple one-step process, which reduced its contact angle hysteresis for most liquids. Numerical simulations of a liquid drop interacting with a pyramidal or conical geometry were used to calculate surface tension from the experimentally measured force. The results on micrometer-sized drops agree well with bulk tensiometer measurement of three test liquids (mineral oil, ionic liquid, and glycerol), within a maximum error of 10\%. Our method eliminates the need for specially fabricated “nanoneedle” tips, thus reducing the complexity and cost of measurement.}
+      \field{day}{1}
+      \field{issn}{0743-7463}
+      \field{journaltitle}{Langmuir}
+      \field{month}{8}
+      \field{number}{30}
+      \field{shortjournal}{Langmuir}
+      \field{title}{Method to {{Measure Surface Tension}} of {{Microdroplets Using Standard AFM Cantilever Tips}}}
+      \field{urlday}{10}
+      \field{urlmonth}{8}
+      \field{urlyear}{2024}
+      \field{volume}{39}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{10367\bibrangedash 10374}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1021/acs.langmuir.3c00613
+      \endverb
+      \verb{file}
+      \verb /home/pranav/Work/Literature/Zotero/Sudersan et al_2023_Method to Measure Surface Tension of Microdroplets Using Standard AFM3.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1021/acs.langmuir.3c00613
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1021/acs.langmuir.3c00613
+      \endverb
+    \endentry
+    \entry{zhou2024a}{article}{}
+      \name{author}{13}{}{%
+        {{hash=11dc39a2eb12762ed0c828c97c33403a}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Xiaoteng},
+           giveni={X\bibinitperiod}}}%
+        {{hash=ec101752b46d0674a3ad81dc787cc336}{%
+           family={Sudersan},
+           familyi={S\bibinitperiod},
+           given={Pranav},
+           giveni={P\bibinitperiod}}}%
+        {{hash=373d3f57de883fde66a0018def5a04d1}{%
+           family={Diaz},
+           familyi={D\bibinitperiod},
+           given={Diego},
+           giveni={D\bibinitperiod}}}%
+        {{hash=24fc270cdfe517e1cc0bf68ad257d1e1}{%
+           family={Leibauer},
+           familyi={L\bibinitperiod},
+           given={Benjamin},
+           giveni={B\bibinitperiod}}}%
+        {{hash=78dcc6679f5fc92545ee7a6f63baa7a3}{%
+           family={Hinduja},
+           familyi={H\bibinitperiod},
+           given={Chirag},
+           giveni={C\bibinitperiod}}}%
+        {{hash=b9ed37d82fd7ae4bff40e776d1908b69}{%
+           family={Darvish},
+           familyi={D\bibinitperiod},
+           given={Fahimeh},
+           giveni={F\bibinitperiod}}}%
+        {{hash=e1ea0ddaafa22b4ae25d05f963f10bee}{%
+           family={Bista},
+           familyi={B\bibinitperiod},
+           given={Pravash},
+           giveni={P\bibinitperiod}}}%
+        {{hash=be8de1f30568422bf2977604886eb655}{%
+           family={Hauer},
+           familyi={H\bibinitperiod},
+           given={Lukas},
+           giveni={L\bibinitperiod}}}%
+        {{hash=2211ad00221e261309462362efe3637c}{%
+           family={Wagner},
+           familyi={W\bibinitperiod},
+           given={Manfred},
+           giveni={M\bibinitperiod}}}%
+        {{hash=552d3b13b55699a7ab1d49c96fe8de9d}{%
+           family={Steffen},
+           familyi={S\bibinitperiod},
+           given={Werner},
+           giveni={W\bibinitperiod}}}%
+        {{hash=6ba98b57fe1f95279a7b276f87e11088}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Jie},
+           giveni={J\bibinitperiod}}}%
+        {{hash=c0422fbe181b014e75854ff09aa18bcf}{%
+           family={Kappl},
+           familyi={K\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=2731b858a00639318cb57f3e8febfba1}{%
+           family={Butt},
+           familyi={B\bibinitperiod},
+           given={Hans-Jürgen},
+           giveni={H\bibinithyphendelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{d33ebd337ab53bb12bc291afa7d3848a}
+      \strng{fullhash}{1deeff98a083b9c660fd8f17d9a48294}
+      \strng{bibnamehash}{ea88babd94197645148ffca53a87d56f}
+      \strng{authorbibnamehash}{ea88babd94197645148ffca53a87d56f}
+      \strng{authornamehash}{d33ebd337ab53bb12bc291afa7d3848a}
+      \strng{authorfullhash}{1deeff98a083b9c660fd8f17d9a48294}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Due to poor chemical robustness, superhydrophobic surfaces become susceptible to failure, especially in a highly oxidative environment. To ensure the long-term efficacy of these surfaces, a more stable and environmentally friendly coating is required to replace the conventional salinization layers. Here, soot-templated surfaces with re-entrant nanostructures are precoated with polydimethylsiloxane (PDMS) brushes. An additional nanometer-thick lubricant layer of PDMS was then applied to increase chemical stability. The surface is superhydrophobic with a nanoscale liquid coating. Since the lubricant layer is thin, ridge formation is suppressed, which leads to low drop sliding friction and fast drop shedding. By introducing a bottom “reservoir” of a free lubricant as an oil source for self-replenishing to the upper layer, the superhydrophobic surface becomes more stable and heals spontaneously in response to alkali erosion and O2 plasma exposure. This design also leads to a higher icing delay time and faster removal of impacting cooled water drops than for uncoated surfaces, preventing icing at low temperatures.}
+      \field{issn}{2731-4375}
+      \field{journaltitle}{Droplet}
+      \field{langid}{english}
+      \field{number}{1}
+      \field{title}{Chemically Robust Superhydrophobic Surfaces with a Self-Replenishing Nanoscale Liquid Coating}
+      \field{urlday}{10}
+      \field{urlmonth}{8}
+      \field{urlyear}{2024}
+      \field{volume}{3}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{e103}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1002/dro2.103
+      \endverb
+      \verb{file}
+      \verb /home/pranav/Work/Literature/Zotero/Zhou et al_2024_Chemically robust superhydrophobic surfaces with a self-replenishing nanoscale.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/dro2.103
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/dro2.103
+      \endverb
+    \endentry
+    \entry{zhou2024}{article}{}
+      \name{author}{9}{}{%
+        {{hash=11dc39a2eb12762ed0c828c97c33403a}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Xiaoteng},
+           giveni={X\bibinitperiod}}}%
+        {{hash=4a0239fcc7b66a8d7357d2da589bc414}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Yongkang},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=445a2698e3aafb3f8132251f9cacb2fa}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Xiaomei},
+           giveni={X\bibinitperiod}}}%
+        {{hash=ec101752b46d0674a3ad81dc787cc336}{%
+           family={Sudersan},
+           familyi={S\bibinitperiod},
+           given={Pranav},
+           giveni={P\bibinitperiod}}}%
+        {{hash=10adfbb604c4e4f44685766ac755daf9}{%
+           family={Amann-Winkel},
+           familyi={A\bibinithyphendelim W\bibinitperiod},
+           given={Katrin},
+           giveni={K\bibinitperiod}}}%
+        {{hash=17532a567447ae3d52bcdf1fce08c543}{%
+           family={Koynov},
+           familyi={K\bibinitperiod},
+           given={Kaloian},
+           giveni={K\bibinitperiod}}}%
+        {{hash=7eac139ec16251a4ae9919f1df24a4a9}{%
+           family={Nagata},
+           familyi={N\bibinitperiod},
+           given={Yuki},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=d74ea1f9b55c833569c2ccc3fab0f4bf}{%
+           family={Berger},
+           familyi={B\bibinitperiod},
+           given={Rüdiger},
+           giveni={R\bibinitperiod}}}%
+        {{hash=2731b858a00639318cb57f3e8febfba1}{%
+           family={Butt},
+           familyi={B\bibinitperiod},
+           given={Hans-Jürgen},
+           giveni={H\bibinithyphendelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{d33ebd337ab53bb12bc291afa7d3848a}
+      \strng{fullhash}{077a799e6e225fc81d9f1b7b4610a8a1}
+      \strng{bibnamehash}{32bb7a3a9d2fe1c16e0c9f9adfd0e110}
+      \strng{authorbibnamehash}{32bb7a3a9d2fe1c16e0c9f9adfd0e110}
+      \strng{authornamehash}{d33ebd337ab53bb12bc291afa7d3848a}
+      \strng{authorfullhash}{077a799e6e225fc81d9f1b7b4610a8a1}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Layers of nanometer thick polydimethylsiloxane (PDMS) are applied as hydrophobic coatings because of their environmentally friendly and chemically inert properties. In applications such as heat exchangers or fog harvesting, low water drop friction on surfaces is required. While the onset of motion (static friction) has been studied, the knowledge of dynamic friction needs to be improved. To minimize drop friction, it is essential to understand which processes lead to energy dissipation and cause dynamic friction? Here, the dynamic friction of drops on PDMS brushes of different thicknesses is measured, covering the whole available velocity regime. The brush thickness L turns out to be a predictor for drop friction. 4–5 nm thick PDMS brush shows the lowest dynamic friction. A certain minimal thickness is necessary to form homogeneous surfaces and reduce the attractive van der Waals interaction between water and the substrate. The increase in dynamic friction above L = 5 nm is also attributed to the increasing viscoelastic dissipation of the capillary ridge formed at the contact line. The height of the ridge is related to the brush thickness. Fluorescence correlation spectroscopy and atomic force measurements support this interpretation. Sum-frequency generation further indicates a maximum order at the PDMS–water interface at intermediate thickness.}
+      \field{issn}{1521-4095}
+      \field{journaltitle}{Advanced Materials}
+      \field{langid}{english}
+      \field{number}{29}
+      \field{title}{Thickness of {{Nanoscale Poly}}({{Dimethylsiloxane}}) {{Layers Determines}} the {{Motion}} of {{Sliding Water Drops}}}
+      \field{urlday}{10}
+      \field{urlmonth}{8}
+      \field{urlyear}{2024}
+      \field{volume}{36}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{2311470}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1002/adma.202311470
+      \endverb
+      \verb{file}
+      \verb /home/pranav/Work/Literature/Zotero/Zhou et al_2024_Thickness of Nanoscale Poly(Dimethylsiloxane) Layers Determines the Motion of.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/adma.202311470
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/adma.202311470
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
